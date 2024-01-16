@@ -23,12 +23,8 @@ def api_get(filters = [], fields = "" ,sort="id", reverse = 'false',results = 10
     print(response.json())
 
 
-#for searching up tag names
-def search_loopup(searchitem = []):
-    baseurl = 'https://api.vndb.org/kana/tag' 
 
-
-
+        #for searching up tag names
     
 
 api_get(filters = ["search", "=",'cyberpunk'], fields = "id")
